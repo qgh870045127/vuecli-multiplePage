@@ -1,0 +1,5 @@
+<template>
+  <header class="header">
+    I'm header
+  </header>
+</template>

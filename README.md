@@ -10,6 +10,13 @@
 - 使用 webpack.splitChunks 抽离公共代码。
 - 通过 webpack.entry 配置自身入口以及公共入口 [自身, 公共]，有了全局入口我们可以做很多事情。
 
+## 自动生成页面
+
+相关文件都放在了 config 目录里。
+逻辑很简单，首先需要写好对应的几个模板，然后在 options.js 里配置页面属性，
+前面工作完成后，在 configuration.js 里根据前面配置的页面属性进行遍历操作，
+生成文件以及多页面入口需要的参数，最后暴露给 vue.config.js。
+
 ```
 ├─ .gitignore
 ├─ babel.config.js

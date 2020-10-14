@@ -1,5 +1,5 @@
 <template>
-  <div class="home icon-banner02">I'm home</div>
+  <div class="home">I'm home</div>
 </template>
 <script>
 export default {
